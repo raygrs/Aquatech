@@ -1,0 +1,35 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+}
+.header{
+    /* borda de baixo da div  */
+    border-bottom:  3px solid #32b9cd; 
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+.header .container{
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #32b9cd;
+
+    font-weight: 600; /* deixa em negrito  */
+}
+.navbar{
+    color: #e3b062;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
